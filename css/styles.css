@@ -11,9 +11,18 @@
     --stroke-color:#EEEEEE;
 }
 
-body {
-    margin: 0;
 
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+body {
+    
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     line-height: 1.14;
@@ -37,6 +46,10 @@ body {
 }
 
 .hero-section {
+    margin-top: 0;
+    margin-bottom: 0;
+    
+    
     background-color: var(--hero-footer-bgd);
     color: var(--white-text-color);
     font-weight: 900;
@@ -47,6 +60,12 @@ body {
     text-transform: uppercase;
 }
 .hero-button {
+    display: inline-block;
+    border-radius: 4px;
+    padding: 10px 32px;
+    min-width: 216px;
+    border: none;
+
     background-color: var(--button-active-bgd);
     color: var(--white-text-color);
     font-family: inherit;
