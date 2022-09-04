@@ -15,7 +15,7 @@
 
 <body>
     <header>
-        <div class="section">
+        <div class="container main-nav">
             <a class="header-logo" href="./index.html"><span class="logo">Web</span>Studio</a>
             <nav class="nav-links">
                 <ul class="nav-menu list">
@@ -32,63 +32,81 @@
     </header>
 
     <main>
-        <h1 class="hide">Portfolio</h1>
-        <div class="filter-buttons section">
-            <ul class="filter-buttons-list list">
-                <li><button class="filter-button" type="button">Усі</button></li>
-                <li><button class="filter-button" type="button">Веб-сайти</button></li>
-                <li><button class="filter-button" type="button">Додатки</button></li>
-                <li><button class="filter-button" type="button">Дизайн</button></li>
-                <li><button class="filter-button" type="button">Маркетинг</button></li>
-            </ul>
-        </div>
-        <section class="works">
-            <div class="section">
+        <section class="container section">
+            <h1 class="hide">Portfolio</h1>
+            <div class="filter-buttons">
+                <ul class="filter-buttons-list list">
+                    <li class="btn"><button class="filter-button" type="button">Усі</button></li>
+                    <li class="btn"><button class="filter-button" type="button">Веб-сайти</button></li>
+                    <li class="btn"><button class="filter-button" type="button">Додатки</button></li>
+                    <li class="btn"><button class="filter-button" type="button">Дизайн</button></li>
+                    <li class="btn"><button class="filter-button" type="button">Маркетинг</button></li>
+                </ul>
+            </div>
+            <div class="works-box">
                 <ul class="works-list list">
-                    <li>
+                    <li class="work-card">
                         <img src="./img/portfolioimg/laptop1.jpg" alt="website technokryk" width="370" height="294" />
-                        <h2 class="work-list-title">Технокряк</h2>
-                        <p>Веб-сайт</p>
+                        <div class="descr">   
+                            <h2 class="work-list-title">Технокряк</h2>
+                            <p>Веб-сайт</p>
+                        </div>
                     </li>
-                    <li>
+                    <li class="work-card">
                         <img src="./img/portfolioimg/poster2.jpg" alt="poster" width="370" height="294" />
-                        <h2 class="work-list-title">Постер New Orlean vs Golden State</h2>
-                        <p>Дизайн</p>
+                        <div class="descr">
+                            <h2 class="work-list-title">Постер New Orlean vs Golden State</h2>
+                            <p>Дизайн</p>
+                        </div>
                     </li>
-                    <li>
+                    <li class="work-card">
                         <img src="./img/portfolioimg/seafood3.jpg" alt="seafood" width="370" height="294" />
-                        <h2 class="work-list-title">Ресторан Seafood</h2>
-                        <p>Додаток</p>
+                        <div class="descr">
+                            <h2 class="work-list-title">Ресторан Seafood</h2>
+                            <p>Додаток</p>
+                        </div>
                     </li>
-                    <li>
+                    <li class="work-card">
                         <img src="./img/portfolioimg/headphones4.jpg" alt="headphones" width="370" height="294" />
-                        <h2 class="work-list-title">Проєкт Prime</h2>
-                        <p>Маркетинг</p>
+                        <div class="descr">
+                            <h2 class="work-list-title">Проєкт Prime</h2>
+                            <p>Маркетинг</p>
+                        </div>
                     </li>
-                    <li>
+                    <li class="work-card">
                         <img src="./img/portfolioimg/blocks5.jpg" alt="box app" width="370" height="294" />
-                        <h2 class="work-list-title">Проєкт Boxes</h2>
-                        <p>Додаток</p>
+                        <div class="descr">
+                            <h2 class="work-list-title">Проєкт Boxes</h2>
+                            <p>Додаток</p>
+                        </div>
                     </li>
-                    <li>
+                    <li class="work-card">
                         <img src="./img/portfolioimg/pc6.jpg" alt="website inspiration" width="370" height="294" />
-                        <h2 class="work-list-title">Inspiration has no Borders</h2>
-                        <p>Веб-сайт</p>
+                        <div class="descr">
+                            <h2 class="work-list-title">Inspiration has no Borders</h2>
+                            <p>Веб-сайт</p>
+                        </div>
                     </li>
-                    <li>
+                    <li class="work-card">
                         <img src="./img/portfolioimg/book7.jpg" alt="book" width="370" height="294" />
-                        <h2 class="work-list-title">Видання Limited Edition</h2>
-                        <p>Дизайн</p>
+                        <div class="descr">
+                            <h2 class="work-list-title">Видання Limited Edition</h2>
+                            <p>Дизайн</p>
+                        </div>
                     </li>
-                    <li>
+                    <li class="work-card">
                         <img src="./img/portfolioimg/bage8.jpg" alt="project lab" width="370" height="294" />
-                        <h2 class="work-list-title">Проєкт LAB</h2>
-                        <p>Маркетинг</p>
+                        <div class="descr">
+                            <h2 class="work-list-title">Проєкт LAB</h2>
+                            <p>Маркетинг</p>
+                        </div>
                     </li>
-                    <li>
+                    <li class="work-card">
                         <img src="./img/portfolioimg/laptop9.jpg" alt="growing bussiness app" width="370" height="294" />
-                        <h2 class="work-list-title">Growing Business</h2>
-                        <p>Додаток</p>
+                        <div class="descr">
+                            <h2 class="work-list-title">Growing Business</h2>
+                            <p>Додаток</p>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -96,7 +114,7 @@
     </main>
 
     <footer class="footer">
-        <div class="section">
+        <div class="container">
             <a class="footer-logo" href="./index.html"><span class="logo">Web</span>Studio</a>
             <address>
                 <ul class="footer-data list">
