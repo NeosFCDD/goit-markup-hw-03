@@ -35,7 +35,6 @@ body {
 }
 
 .container {
-    outline: 2px solid orange;
     width: 1200px;
     margin: 0 auto;
     padding:0px 15px;
