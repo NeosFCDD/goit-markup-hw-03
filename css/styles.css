@@ -274,9 +274,6 @@ body {
     text-align: center;
 }
 
-.team-item {
-    padding-top: 94px;
-}
 
 .second-header {
     font-weight: 700;
@@ -308,6 +305,10 @@ body {
 .team-mate > p {
     margin-top: 10px;
     padding-bottom: 30px;
+}
+
+.team-mate p {
+    color: var(--add-text-color);
 }
 
 /* Footer section */
